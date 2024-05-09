@@ -1,0 +1,6747 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/Deps_V1_0_0.sol": {
+      "lastModificationDate": 1715183075326,
+      "contentHash": "5165305f54f403511856bb2060bf1609",
+      "sourceName": "contracts/Deps_V1_0_0.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./safe_V1_0_0/proxies/ProxyFactory.sol",
+        "./safe_V1_0_0/GnosisSafe.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "SafeProxyFactory_SV1_0_0",
+        "Safe_SV1_0_0"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_0_0/proxies/ProxyFactory.sol": {
+      "lastModificationDate": 1715183075329,
+      "contentHash": "03df54011b20c33c9a2fbf1f0304e047",
+      "sourceName": "contracts/safe_V1_0_0/proxies/ProxyFactory.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./Proxy.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.3"
+      ],
+      "artifacts": [
+        "ProxyFactory"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_0_0/GnosisSafe.sol": {
+      "lastModificationDate": 1715183075326,
+      "contentHash": "dd9b65151ea0288e7879bd3c0e8c455e",
+      "sourceName": "contracts/safe_V1_0_0/GnosisSafe.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./base/BaseSafe.sol",
+        "./common/MasterCopy.sol",
+        "./common/SignatureDecoder.sol",
+        "./common/SecuredTokenTransfer.sol",
+        "./interfaces/ISignatureValidator.sol",
+        "./external/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "GnosisSafe"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_0_0/proxies/Proxy.sol": {
+      "lastModificationDate": 1715183075329,
+      "contentHash": "5eb2658862888c2cd8398428ca8b674a",
+      "sourceName": "contracts/safe_V1_0_0/proxies/Proxy.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "Proxy"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_0_0/base/BaseSafe.sol": {
+      "lastModificationDate": 1715183075326,
+      "contentHash": "4e4f90bdfc0ce488ee48e4834d74b88e",
+      "sourceName": "contracts/safe_V1_0_0/base/BaseSafe.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./Module.sol",
+        "./ModuleManager.sol",
+        "./OwnerManager.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "BaseSafe"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_0_0/common/MasterCopy.sol": {
+      "lastModificationDate": 1715183075327,
+      "contentHash": "7c045f086ca110bbaeab612a68136228",
+      "sourceName": "contracts/safe_V1_0_0/common/MasterCopy.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./SelfAuthorized.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "MasterCopy"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_0_0/common/SignatureDecoder.sol": {
+      "lastModificationDate": 1715183075327,
+      "contentHash": "6282450a03b8fe23685e66083fb5a4f4",
+      "sourceName": "contracts/safe_V1_0_0/common/SignatureDecoder.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "SignatureDecoder"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_0_0/common/SecuredTokenTransfer.sol": {
+      "lastModificationDate": 1715183075327,
+      "contentHash": "d81aec7ef21c20d35676cd2f77b9dbdb",
+      "sourceName": "contracts/safe_V1_0_0/common/SecuredTokenTransfer.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "SecuredTokenTransfer"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_0_0/interfaces/ISignatureValidator.sol": {
+      "lastModificationDate": 1715183075328,
+      "contentHash": "037bbaa04d74b2a7ab542f4adf75aa8d",
+      "sourceName": "contracts/safe_V1_0_0/interfaces/ISignatureValidator.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "ISignatureValidator"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_0_0/external/SafeMath.sol": {
+      "lastModificationDate": 1715183075328,
+      "contentHash": "6c99dab17a21d8a7f22cd9c7892e2ada",
+      "sourceName": "contracts/safe_V1_0_0/external/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_0_0/base/ModuleManager.sol": {
+      "lastModificationDate": 1715183075327,
+      "contentHash": "782f522af462a303e86ab537b4b8ae31",
+      "sourceName": "contracts/safe_V1_0_0/base/ModuleManager.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/Enum.sol",
+        "../common/SelfAuthorized.sol",
+        "./Executor.sol",
+        "./Module.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "ModuleManager"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_0_0/base/Module.sol": {
+      "lastModificationDate": 1715183075327,
+      "contentHash": "95e06eebe45daee26448b3eeb19014e4",
+      "sourceName": "contracts/safe_V1_0_0/base/Module.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/MasterCopy.sol",
+        "./ModuleManager.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "Module"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_0_0/base/OwnerManager.sol": {
+      "lastModificationDate": 1715183075327,
+      "contentHash": "b22cee5cad91c9e5fbc2600afe1027cb",
+      "sourceName": "contracts/safe_V1_0_0/base/OwnerManager.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/SelfAuthorized.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "OwnerManager"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_0_0/common/Enum.sol": {
+      "lastModificationDate": 1715183075327,
+      "contentHash": "bce1360b32c123957b673d2ab0211117",
+      "sourceName": "contracts/safe_V1_0_0/common/Enum.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "Enum"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_0_0/common/SelfAuthorized.sol": {
+      "lastModificationDate": 1715183075327,
+      "contentHash": "9fe30f30f89d50113f3512af93ccf0fb",
+      "sourceName": "contracts/safe_V1_0_0/common/SelfAuthorized.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "SelfAuthorized"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_0_0/base/Executor.sol": {
+      "lastModificationDate": 1715183075327,
+      "contentHash": "81c967e14a9ff66d618130e1777bb630",
+      "sourceName": "contracts/safe_V1_0_0/base/Executor.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/Enum.sol",
+        "../common/EtherPaymentFallback.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "Executor"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_0_0/common/EtherPaymentFallback.sol": {
+      "lastModificationDate": 1715183075327,
+      "contentHash": "4781ec7d2384db36281670c77901c19e",
+      "sourceName": "contracts/safe_V1_0_0/common/EtherPaymentFallback.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "EtherPaymentFallback"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_0_0/proxies/PayingProxy.sol": {
+      "lastModificationDate": 1715183075328,
+      "contentHash": "c4e813a81bd1c18bf4c15f29c22a772b",
+      "sourceName": "contracts/safe_V1_0_0/proxies/PayingProxy.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/SecuredTokenTransfer.sol",
+        "./DelegateConstructorProxy.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "PayingProxy"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_0_0/proxies/DelegateConstructorProxy.sol": {
+      "lastModificationDate": 1715183075328,
+      "contentHash": "7bd04f61631f81c4dbf3f25b957dd2d4",
+      "sourceName": "contracts/safe_V1_0_0/proxies/DelegateConstructorProxy.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./Proxy.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "DelegateConstructorProxy"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_0_0/libraries/CreateAndAddModules.sol": {
+      "lastModificationDate": 1715183075328,
+      "contentHash": "492bfb4a7e6e5942fcce08515f476aac",
+      "sourceName": "contracts/safe_V1_0_0/libraries/CreateAndAddModules.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../base/Module.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "CreateAndAddModules"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/Deps_V1_1_1.sol": {
+      "lastModificationDate": 1715183075326,
+      "contentHash": "46869b5dc2f2681021ff16cf4c14792b",
+      "sourceName": "contracts/Deps_V1_1_1.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./safe_V1_1_1/proxies/ProxyFactory.sol",
+        "./safe_V1_1_1/GnosisSafe.sol",
+        "./safe_V1_1_1/libraries/MultiSend.sol",
+        "./safe_V1_1_1/libraries/CreateCall.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "CreateCall_SV1_1_1",
+        "MultiSend_SV1_1_1",
+        "SafeProxyFactory_SV1_1_1",
+        "Safe_SV1_1_1"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/proxies/ProxyFactory.sol": {
+      "lastModificationDate": 1715183075331,
+      "contentHash": "5213e677e21653ea27555c3feb25aade",
+      "sourceName": "contracts/safe_V1_1_1/proxies/ProxyFactory.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./Proxy.sol",
+        "./IProxyCreationCallback.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.3"
+      ],
+      "artifacts": [
+        "ProxyFactory"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/GnosisSafe.sol": {
+      "lastModificationDate": 1715183075329,
+      "contentHash": "14437d866aedb3f46ba04b7d08d0c8af",
+      "sourceName": "contracts/safe_V1_1_1/GnosisSafe.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./base/ModuleManager.sol",
+        "./base/OwnerManager.sol",
+        "./base/FallbackManager.sol",
+        "./common/MasterCopy.sol",
+        "./common/SignatureDecoder.sol",
+        "./common/SecuredTokenTransfer.sol",
+        "./interfaces/ISignatureValidator.sol",
+        "./external/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "GnosisSafe"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/libraries/MultiSend.sol": {
+      "lastModificationDate": 1715183075331,
+      "contentHash": "9007984eff78e9b32a4feb09189f393d",
+      "sourceName": "contracts/safe_V1_1_1/libraries/MultiSend.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "MultiSend"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/libraries/CreateCall.sol": {
+      "lastModificationDate": 1715183075331,
+      "contentHash": "8d35a977c924158787f7671cc2aee329",
+      "sourceName": "contracts/safe_V1_1_1/libraries/CreateCall.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "CreateCall"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/proxies/Proxy.sol": {
+      "lastModificationDate": 1715183075331,
+      "contentHash": "e7e1b3078ba914b847878b4ae8f9f0eb",
+      "sourceName": "contracts/safe_V1_1_1/proxies/Proxy.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "IProxy",
+        "Proxy"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/proxies/IProxyCreationCallback.sol": {
+      "lastModificationDate": 1715183075331,
+      "contentHash": "bbf9459a5cb0fb232b3f015d38d53e8b",
+      "sourceName": "contracts/safe_V1_1_1/proxies/IProxyCreationCallback.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./Proxy.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.3"
+      ],
+      "artifacts": [
+        "IProxyCreationCallback"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/common/MasterCopy.sol": {
+      "lastModificationDate": 1715183075330,
+      "contentHash": "67c365a8ac7bf8fbf1a70694d5bd1a4f",
+      "sourceName": "contracts/safe_V1_1_1/common/MasterCopy.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./SelfAuthorized.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "MasterCopy"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/common/SignatureDecoder.sol": {
+      "lastModificationDate": 1715183075330,
+      "contentHash": "6248aeeb39579c34148346e7f03fc2fe",
+      "sourceName": "contracts/safe_V1_1_1/common/SignatureDecoder.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "SignatureDecoder"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/interfaces/ISignatureValidator.sol": {
+      "lastModificationDate": 1715183075331,
+      "contentHash": "29d211f5dfff296bc91723c78c37ef00",
+      "sourceName": "contracts/safe_V1_1_1/interfaces/ISignatureValidator.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "ISignatureValidator",
+        "ISignatureValidatorConstants"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/base/ModuleManager.sol": {
+      "lastModificationDate": 1715183075330,
+      "contentHash": "133533df8d9615b933ca597c2ca4e9e8",
+      "sourceName": "contracts/safe_V1_1_1/base/ModuleManager.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/Enum.sol",
+        "../common/SelfAuthorized.sol",
+        "./Executor.sol",
+        "./Module.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "ModuleManager"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/base/OwnerManager.sol": {
+      "lastModificationDate": 1715183075330,
+      "contentHash": "08b86e482449b428d6e8055ddb10c18a",
+      "sourceName": "contracts/safe_V1_1_1/base/OwnerManager.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/SelfAuthorized.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "OwnerManager"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/common/SecuredTokenTransfer.sol": {
+      "lastModificationDate": 1715183075330,
+      "contentHash": "3897df1650d69173f3568d9b50f916be",
+      "sourceName": "contracts/safe_V1_1_1/common/SecuredTokenTransfer.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "SecuredTokenTransfer"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/external/SafeMath.sol": {
+      "lastModificationDate": 1715183075330,
+      "contentHash": "b98322a97d7be049a7ca8a4837f02758",
+      "sourceName": "contracts/safe_V1_1_1/external/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/base/FallbackManager.sol": {
+      "lastModificationDate": 1715183075329,
+      "contentHash": "817013ed0104243bd5853e47a7af4b6a",
+      "sourceName": "contracts/safe_V1_1_1/base/FallbackManager.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/SelfAuthorized.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "FallbackManager"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/common/SelfAuthorized.sol": {
+      "lastModificationDate": 1715183075330,
+      "contentHash": "dbb0bc5d93c775f39a7ac5a29504f56e",
+      "sourceName": "contracts/safe_V1_1_1/common/SelfAuthorized.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "SelfAuthorized"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/common/Enum.sol": {
+      "lastModificationDate": 1715183075330,
+      "contentHash": "cc6fb3077de74cb840846eced1fd740c",
+      "sourceName": "contracts/safe_V1_1_1/common/Enum.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "Enum"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/base/Executor.sol": {
+      "lastModificationDate": 1715183075329,
+      "contentHash": "91550d4464c25f2745208cfbc96a4e86",
+      "sourceName": "contracts/safe_V1_1_1/base/Executor.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/Enum.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "Executor"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/base/Module.sol": {
+      "lastModificationDate": 1715183075329,
+      "contentHash": "73ee346ed160b52d12151ed2fae739fd",
+      "sourceName": "contracts/safe_V1_1_1/base/Module.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/MasterCopy.sol",
+        "./ModuleManager.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "Module"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/libraries/CreateAndAddModules.sol": {
+      "lastModificationDate": 1715183075331,
+      "contentHash": "b16fbcddccbdd96855ea56c7e6d1797e",
+      "sourceName": "contracts/safe_V1_1_1/libraries/CreateAndAddModules.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../base/Module.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "CreateAndAddModules"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/proxies/PayingProxy.sol": {
+      "lastModificationDate": 1715183075331,
+      "contentHash": "9dc0abeb3b1353c7ba23cd3855f9f21c",
+      "sourceName": "contracts/safe_V1_1_1/proxies/PayingProxy.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/SecuredTokenTransfer.sol",
+        "./DelegateConstructorProxy.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "PayingProxy"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/proxies/DelegateConstructorProxy.sol": {
+      "lastModificationDate": 1715183075331,
+      "contentHash": "431beab8b59982064aac24813d7634c4",
+      "sourceName": "contracts/safe_V1_1_1/proxies/DelegateConstructorProxy.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./Proxy.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "DelegateConstructorProxy"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/Deps_V1_2_0.sol": {
+      "lastModificationDate": 1715183075326,
+      "contentHash": "6ad7d316b4db84fe17fc77b4710dc366",
+      "sourceName": "contracts/Deps_V1_2_0.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./safe_V1_2_0/proxies/GnosisSafeProxyFactory.sol",
+        "./safe_V1_2_0/GnosisSafe.sol",
+        "./safe_V1_2_0/libraries/MultiSend.sol",
+        "./safe_V1_2_0/modules/DailyLimitModule.sol",
+        "./safe_V1_2_0/modules/SocialRecoveryModule.sol",
+        "@openzeppelin/contracts/token/ERC20/ERC20Mintable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "MultiSend_SV1_2_0",
+        "SafeProxyFactory_SV1_2_0",
+        "Safe_SV1_2_0"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/proxies/GnosisSafeProxyFactory.sol": {
+      "lastModificationDate": 1715183075334,
+      "contentHash": "754b6fcd156a33d477b5ace6b12c5b9b",
+      "sourceName": "contracts/safe_V1_2_0/proxies/GnosisSafeProxyFactory.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./GnosisSafeProxy.sol",
+        "./IProxyCreationCallback.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.3"
+      ],
+      "artifacts": [
+        "GnosisSafeProxyFactory"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/GnosisSafe.sol": {
+      "lastModificationDate": 1715183075332,
+      "contentHash": "526235fbd47437fca2bdeb90e82c3a9a",
+      "sourceName": "contracts/safe_V1_2_0/GnosisSafe.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./base/ModuleManager.sol",
+        "./base/OwnerManager.sol",
+        "./base/FallbackManager.sol",
+        "./common/MasterCopy.sol",
+        "./common/SignatureDecoder.sol",
+        "./common/SecuredTokenTransfer.sol",
+        "./interfaces/ISignatureValidator.sol",
+        "./external/GnosisSafeMath.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "GnosisSafe"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/libraries/MultiSend.sol": {
+      "lastModificationDate": 1715183075333,
+      "contentHash": "9007984eff78e9b32a4feb09189f393d",
+      "sourceName": "contracts/safe_V1_2_0/libraries/MultiSend.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "MultiSend"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/modules/SocialRecoveryModule.sol": {
+      "lastModificationDate": 1715183075334,
+      "contentHash": "95bd39bdacc0b48a80897485f7d7fdbf",
+      "sourceName": "contracts/safe_V1_2_0/modules/SocialRecoveryModule.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../base/Module.sol",
+        "../base/ModuleManager.sol",
+        "../base/OwnerManager.sol",
+        "../common/Enum.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "SocialRecoveryModule"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/modules/DailyLimitModule.sol": {
+      "lastModificationDate": 1715183075333,
+      "contentHash": "f34ee04fd17a7f77baff3d576f64fb58",
+      "sourceName": "contracts/safe_V1_2_0/modules/DailyLimitModule.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../base/Module.sol",
+        "../base/ModuleManager.sol",
+        "../base/OwnerManager.sol",
+        "../common/Enum.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "DailyLimitModule"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@openzeppelin/contracts/token/ERC20/ERC20Mintable.sol": {
+      "lastModificationDate": 1715240968413,
+      "contentHash": "6fb5e3b69c1954bc8d52981e5fa22e1b",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20Mintable.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./ERC20.sol",
+        "../../access/roles/MinterRole.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "ERC20Mintable"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/proxies/GnosisSafeProxy.sol": {
+      "lastModificationDate": 1715183075334,
+      "contentHash": "4f0a0d66aeea7b832ac5a9f800541a3b",
+      "sourceName": "contracts/safe_V1_2_0/proxies/GnosisSafeProxy.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "GnosisSafeProxy",
+        "IProxy"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/proxies/IProxyCreationCallback.sol": {
+      "lastModificationDate": 1715183075334,
+      "contentHash": "c4785b79566f0f19011ff1ff25b921ae",
+      "sourceName": "contracts/safe_V1_2_0/proxies/IProxyCreationCallback.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./GnosisSafeProxy.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.3"
+      ],
+      "artifacts": [
+        "IProxyCreationCallback"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/base/FallbackManager.sol": {
+      "lastModificationDate": 1715183075332,
+      "contentHash": "817013ed0104243bd5853e47a7af4b6a",
+      "sourceName": "contracts/safe_V1_2_0/base/FallbackManager.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/SelfAuthorized.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "FallbackManager"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/base/OwnerManager.sol": {
+      "lastModificationDate": 1715183075332,
+      "contentHash": "04f2478ac7f6a548d0a3e29346165812",
+      "sourceName": "contracts/safe_V1_2_0/base/OwnerManager.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/SelfAuthorized.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "OwnerManager"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/common/SecuredTokenTransfer.sol": {
+      "lastModificationDate": 1715183075332,
+      "contentHash": "3897df1650d69173f3568d9b50f916be",
+      "sourceName": "contracts/safe_V1_2_0/common/SecuredTokenTransfer.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "SecuredTokenTransfer"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/common/SignatureDecoder.sol": {
+      "lastModificationDate": 1715183075333,
+      "contentHash": "6248aeeb39579c34148346e7f03fc2fe",
+      "sourceName": "contracts/safe_V1_2_0/common/SignatureDecoder.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "SignatureDecoder"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/common/MasterCopy.sol": {
+      "lastModificationDate": 1715183075332,
+      "contentHash": "681cc785e299fa5493c257a3ac997476",
+      "sourceName": "contracts/safe_V1_2_0/common/MasterCopy.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./SelfAuthorized.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "MasterCopy"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/external/GnosisSafeMath.sol": {
+      "lastModificationDate": 1715183075333,
+      "contentHash": "fe3a38e5123698691fd9e5cf192cc7d1",
+      "sourceName": "contracts/safe_V1_2_0/external/GnosisSafeMath.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "GnosisSafeMath"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/interfaces/ISignatureValidator.sol": {
+      "lastModificationDate": 1715183075333,
+      "contentHash": "29d211f5dfff296bc91723c78c37ef00",
+      "sourceName": "contracts/safe_V1_2_0/interfaces/ISignatureValidator.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "ISignatureValidator",
+        "ISignatureValidatorConstants"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/base/ModuleManager.sol": {
+      "lastModificationDate": 1715183075332,
+      "contentHash": "3b67dd28b4cfdf7a0c53c1437554ed49",
+      "sourceName": "contracts/safe_V1_2_0/base/ModuleManager.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/Enum.sol",
+        "../common/SelfAuthorized.sol",
+        "./Executor.sol",
+        "./Module.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "ModuleManager"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/common/SelfAuthorized.sol": {
+      "lastModificationDate": 1715183075332,
+      "contentHash": "dbb0bc5d93c775f39a7ac5a29504f56e",
+      "sourceName": "contracts/safe_V1_2_0/common/SelfAuthorized.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "SelfAuthorized"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/base/Module.sol": {
+      "lastModificationDate": 1715183075332,
+      "contentHash": "73ee346ed160b52d12151ed2fae739fd",
+      "sourceName": "contracts/safe_V1_2_0/base/Module.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/MasterCopy.sol",
+        "./ModuleManager.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "Module"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/common/Enum.sol": {
+      "lastModificationDate": 1715183075332,
+      "contentHash": "cc6fb3077de74cb840846eced1fd740c",
+      "sourceName": "contracts/safe_V1_2_0/common/Enum.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "Enum"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/base/Executor.sol": {
+      "lastModificationDate": 1715183075332,
+      "contentHash": "91550d4464c25f2745208cfbc96a4e86",
+      "sourceName": "contracts/safe_V1_2_0/base/Executor.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/Enum.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "Executor"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1715240968413,
+      "contentHash": "22fd452b5721fdbf411ef554c2c80b76",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../GSN/Context.sol",
+        "./IERC20.sol",
+        "../../math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@openzeppelin/contracts/access/roles/MinterRole.sol": {
+      "lastModificationDate": 1715240968374,
+      "contentHash": "9061b799bcbc3fee455e0507734a1f60",
+      "sourceName": "@openzeppelin/contracts/access/roles/MinterRole.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../GSN/Context.sol",
+        "../Roles.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "MinterRole"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@openzeppelin/contracts/GSN/Context.sol": {
+      "lastModificationDate": 1715240967092,
+      "contentHash": "32a66f6f4d0584b403f26f8e5e4d17b5",
+      "sourceName": "@openzeppelin/contracts/GSN/Context.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@openzeppelin/contracts/math/SafeMath.sol": {
+      "lastModificationDate": 1715240967122,
+      "contentHash": "d208da96b6f6c1d204ee8248087cf2d7",
+      "sourceName": "@openzeppelin/contracts/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1715240968413,
+      "contentHash": "183ff1f5e5f04bcfa85cee597bcb0236",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@openzeppelin/contracts/access/Roles.sol": {
+      "lastModificationDate": 1715240967093,
+      "contentHash": "118d44aa29245b854a8785a01af0c4e9",
+      "sourceName": "@openzeppelin/contracts/access/Roles.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "Roles"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/modules/WhitelistModule.sol": {
+      "lastModificationDate": 1715183075334,
+      "contentHash": "211df39ab3a2a963861bf95bbbdb3cd9",
+      "sourceName": "contracts/safe_V1_2_0/modules/WhitelistModule.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../base/Module.sol",
+        "../base/ModuleManager.sol",
+        "../base/OwnerManager.sol",
+        "../common/Enum.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "WhitelistModule"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/modules/StateChannelModule.sol": {
+      "lastModificationDate": 1715183075334,
+      "contentHash": "76188bba25eda018bd663e044bc468bb",
+      "sourceName": "contracts/safe_V1_2_0/modules/StateChannelModule.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../base/Module.sol",
+        "../base/OwnerManager.sol",
+        "../common/Enum.sol",
+        "../common/SignatureDecoder.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "StateChannelModule"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/proxies/PayingProxy.sol": {
+      "lastModificationDate": 1715183075334,
+      "contentHash": "9dc0abeb3b1353c7ba23cd3855f9f21c",
+      "sourceName": "contracts/safe_V1_2_0/proxies/PayingProxy.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/SecuredTokenTransfer.sol",
+        "./DelegateConstructorProxy.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "PayingProxy"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/proxies/DelegateConstructorProxy.sol": {
+      "lastModificationDate": 1715183075334,
+      "contentHash": "a1789f7b172f6c26507c32c2c07da50e",
+      "sourceName": "contracts/safe_V1_2_0/proxies/DelegateConstructorProxy.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./GnosisSafeProxy.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "DelegateConstructorProxy"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/libraries/CreateAndAddModules.sol": {
+      "lastModificationDate": 1715183075333,
+      "contentHash": "b16fbcddccbdd96855ea56c7e6d1797e",
+      "sourceName": "contracts/safe_V1_2_0/libraries/CreateAndAddModules.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../base/Module.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "CreateAndAddModules"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_0_0/Migrations.sol": {
+      "lastModificationDate": 1715183075326,
+      "contentHash": "d544b8640c95348df252047434a065e9",
+      "sourceName": "contracts/safe_V1_0_0/Migrations.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "Migrations"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_0_0/libraries/MultiSend.sol": {
+      "lastModificationDate": 1715183075328,
+      "contentHash": "d841498bc0659ee5b9d810cc9d669884",
+      "sourceName": "contracts/safe_V1_0_0/libraries/MultiSend.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "MultiSend"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/Migrations.sol": {
+      "lastModificationDate": 1715183075329,
+      "contentHash": "d6990cbbbca7706f1e3cb5c37ce2a795",
+      "sourceName": "contracts/safe_V1_1_1/Migrations.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "Migrations"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/common/EtherPaymentFallback.sol": {
+      "lastModificationDate": 1715183075330,
+      "contentHash": "beb7aaac7a991c5340a8727253b98757",
+      "sourceName": "contracts/safe_V1_1_1/common/EtherPaymentFallback.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "EtherPaymentFallback"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/handler/DefaultCallbackHandler.sol": {
+      "lastModificationDate": 1715183075330,
+      "contentHash": "b27de7321fdb4275b95215004f3bff48",
+      "sourceName": "contracts/safe_V1_1_1/handler/DefaultCallbackHandler.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/ERC1155TokenReceiver.sol",
+        "../interfaces/ERC721TokenReceiver.sol",
+        "../interfaces/ERC777TokensRecipient.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "DefaultCallbackHandler"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/interfaces/ERC1155TokenReceiver.sol": {
+      "lastModificationDate": 1715183075331,
+      "contentHash": "88606cb535886d62a15def4348423cfe",
+      "sourceName": "contracts/safe_V1_1_1/interfaces/ERC1155TokenReceiver.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "ERC1155TokenReceiver"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/interfaces/ERC721TokenReceiver.sol": {
+      "lastModificationDate": 1715183075331,
+      "contentHash": "b85cd392da8f7b5965a1bcb802d4ddd6",
+      "sourceName": "contracts/safe_V1_1_1/interfaces/ERC721TokenReceiver.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "ERC721TokenReceiver"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_1_1/interfaces/ERC777TokensRecipient.sol": {
+      "lastModificationDate": 1715183075331,
+      "contentHash": "bb4017e721f0d98401b03ee7522c82d3",
+      "sourceName": "contracts/safe_V1_1_1/interfaces/ERC777TokensRecipient.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "ERC777TokensRecipient"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/Migrations.sol": {
+      "lastModificationDate": 1715183075332,
+      "contentHash": "d6990cbbbca7706f1e3cb5c37ce2a795",
+      "sourceName": "contracts/safe_V1_2_0/Migrations.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "Migrations"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/common/EtherPaymentFallback.sol": {
+      "lastModificationDate": 1715183075332,
+      "contentHash": "beb7aaac7a991c5340a8727253b98757",
+      "sourceName": "contracts/safe_V1_2_0/common/EtherPaymentFallback.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "EtherPaymentFallback"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/handler/DefaultCallbackHandler.sol": {
+      "lastModificationDate": 1715183075333,
+      "contentHash": "b27de7321fdb4275b95215004f3bff48",
+      "sourceName": "contracts/safe_V1_2_0/handler/DefaultCallbackHandler.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/ERC1155TokenReceiver.sol",
+        "../interfaces/ERC721TokenReceiver.sol",
+        "../interfaces/ERC777TokensRecipient.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "DefaultCallbackHandler"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/interfaces/ERC1155TokenReceiver.sol": {
+      "lastModificationDate": 1715183075333,
+      "contentHash": "88606cb535886d62a15def4348423cfe",
+      "sourceName": "contracts/safe_V1_2_0/interfaces/ERC1155TokenReceiver.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "ERC1155TokenReceiver"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/interfaces/ERC721TokenReceiver.sol": {
+      "lastModificationDate": 1715183075333,
+      "contentHash": "b85cd392da8f7b5965a1bcb802d4ddd6",
+      "sourceName": "contracts/safe_V1_2_0/interfaces/ERC721TokenReceiver.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "ERC721TokenReceiver"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/interfaces/ERC777TokensRecipient.sol": {
+      "lastModificationDate": 1715183075333,
+      "contentHash": "bb4017e721f0d98401b03ee7522c82d3",
+      "sourceName": "contracts/safe_V1_2_0/interfaces/ERC777TokensRecipient.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "ERC777TokensRecipient"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/safe_V1_2_0/libraries/CreateCall.sol": {
+      "lastModificationDate": 1715183075333,
+      "contentHash": "8d35a977c924158787f7671cc2aee329",
+      "sourceName": "contracts/safe_V1_2_0/libraries/CreateCall.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "CreateCall"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/Deps_V1_3_0.sol": {
+      "lastModificationDate": 1715183075326,
+      "contentHash": "bc3ed75d55727f033414582a173d81b3",
+      "sourceName": "contracts/Deps_V1_3_0.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@gnosis.pm/safe-contracts-v1.3.0/contracts/proxies/GnosisSafeProxyFactory.sol",
+        "@gnosis.pm/safe-contracts-v1.3.0/contracts/GnosisSafe.sol",
+        "@gnosis.pm/safe-contracts-v1.3.0/contracts/handler/CompatibilityFallbackHandler.sol",
+        "@gnosis.pm/safe-contracts-v1.3.0/contracts/libraries/MultiSend.sol",
+        "@gnosis.pm/safe-contracts-v1.3.0/contracts/libraries/MultiSendCallOnly.sol",
+        "@gnosis.pm/safe-contracts-v1.3.0/contracts/examples/libraries/SignMessage.sol",
+        "@gnosis.pm/safe-contracts-v1.3.0/contracts/libraries/CreateCall.sol",
+        "@gnosis.pm/safe-contracts-v1.3.0/contracts/handler/DefaultCallbackHandler.sol",
+        "@gnosis.pm/safe-contracts-v1.3.0/contracts/accessors/SimulateTxAccessor.sol",
+        "@gnosis.pm/safe-contracts-v1.3.0/contracts/examples/guards/DebugTransactionGuard.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "CompatibilityFallbackHandler_SV1_3_0",
+        "CreateCall_SV1_3_0",
+        "DebugTransactionGuard_SV1_3_0",
+        "DefaultCallbackHandler_SV1_3_0",
+        "MultiSendCallOnly_SV1_3_0",
+        "MultiSend_SV1_3_0",
+        "SafeProxyFactory_SV1_3_0",
+        "Safe_SV1_3_0",
+        "SignMessageLib_SV1_3_0",
+        "SimulateTxAccessor_SV1_3_0"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/GnosisSafe.sol": {
+      "lastModificationDate": 1715240966730,
+      "contentHash": "6302a9ad4b2767251b680676d0dfa334",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/GnosisSafe.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./base/ModuleManager.sol",
+        "./base/OwnerManager.sol",
+        "./base/FallbackManager.sol",
+        "./base/GuardManager.sol",
+        "./common/EtherPaymentFallback.sol",
+        "./common/Singleton.sol",
+        "./common/SignatureDecoder.sol",
+        "./common/SecuredTokenTransfer.sol",
+        "./common/StorageAccessible.sol",
+        "./interfaces/ISignatureValidator.sol",
+        "./external/GnosisSafeMath.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "GnosisSafe"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/libraries/MultiSendCallOnly.sol": {
+      "lastModificationDate": 1715240968037,
+      "contentHash": "121202ac209e67a2a6f0cb22f0133a0a",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/libraries/MultiSendCallOnly.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "MultiSendCallOnly"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/handler/CompatibilityFallbackHandler.sol": {
+      "lastModificationDate": 1715240968036,
+      "contentHash": "0663cc338351b228ee368891a754198a",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/handler/CompatibilityFallbackHandler.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./DefaultCallbackHandler.sol",
+        "../interfaces/ISignatureValidator.sol",
+        "../GnosisSafe.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "CompatibilityFallbackHandler"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/proxies/GnosisSafeProxyFactory.sol": {
+      "lastModificationDate": 1715240968036,
+      "contentHash": "1c6f2708f7097b32396e492b6d545f07",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/proxies/GnosisSafeProxyFactory.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./GnosisSafeProxy.sol",
+        "./IProxyCreationCallback.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "GnosisSafeProxyFactory"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/libraries/MultiSend.sol": {
+      "lastModificationDate": 1715240968037,
+      "contentHash": "a7b41ac2932ddd3c1d11c7076ace270d",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/libraries/MultiSend.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "MultiSend"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/accessors/SimulateTxAccessor.sol": {
+      "lastModificationDate": 1715240968034,
+      "contentHash": "54a9a2ed1655e1b79bfc6651f2e3c032",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/accessors/SimulateTxAccessor.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../base/Executor.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "SimulateTxAccessor"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/libraries/CreateCall.sol": {
+      "lastModificationDate": 1715240968036,
+      "contentHash": "5b39e17ce475af78bc0a7cbdc1472c32",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/libraries/CreateCall.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "CreateCall"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/handler/DefaultCallbackHandler.sol": {
+      "lastModificationDate": 1715240968035,
+      "contentHash": "5a4fbd56521d514530c7f6206e8eca89",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/handler/DefaultCallbackHandler.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/ERC1155TokenReceiver.sol",
+        "../interfaces/ERC721TokenReceiver.sol",
+        "../interfaces/ERC777TokensRecipient.sol",
+        "../interfaces/IERC165.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "DefaultCallbackHandler"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/examples/guards/DebugTransactionGuard.sol": {
+      "lastModificationDate": 1715240969234,
+      "contentHash": "100835d618745d8fda08dcea0bf8d877",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/examples/guards/DebugTransactionGuard.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../common/Enum.sol",
+        "../../base/GuardManager.sol",
+        "../../GnosisSafe.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "DebugTransactionGuard"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/examples/libraries/SignMessage.sol": {
+      "lastModificationDate": 1715240969234,
+      "contentHash": "38e750ef832fbfbe0f135e2bc16f0210",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/examples/libraries/SignMessage.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./GnosisSafeStorage.sol",
+        "../../GnosisSafe.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "SignMessageLib"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/base/ModuleManager.sol": {
+      "lastModificationDate": 1715240968035,
+      "contentHash": "90b2541c32a7644991f6ec3510dc3776",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/base/ModuleManager.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/Enum.sol",
+        "../common/SelfAuthorized.sol",
+        "./Executor.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ModuleManager"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/base/FallbackManager.sol": {
+      "lastModificationDate": 1715240968035,
+      "contentHash": "de30ab56ace98b84e2a047164e06d0c5",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/base/FallbackManager.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/SelfAuthorized.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "FallbackManager"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/base/OwnerManager.sol": {
+      "lastModificationDate": 1715240968035,
+      "contentHash": "53e497cc090cb4931ca5905d7f671cc5",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/base/OwnerManager.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/SelfAuthorized.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "OwnerManager"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/base/GuardManager.sol": {
+      "lastModificationDate": 1715240968035,
+      "contentHash": "30b3fe3c67c994d66c5965199d64d86d",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/base/GuardManager.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/Enum.sol",
+        "../common/SelfAuthorized.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Guard",
+        "GuardManager"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/common/Singleton.sol": {
+      "lastModificationDate": 1715240968034,
+      "contentHash": "334ef119459ae9a5487c6bd346752778",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/common/Singleton.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Singleton"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/common/StorageAccessible.sol": {
+      "lastModificationDate": 1715240968034,
+      "contentHash": "b2008c1f9b2cb3bbda6710f462ae7c1f",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/common/StorageAccessible.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "StorageAccessible"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/common/EtherPaymentFallback.sol": {
+      "lastModificationDate": 1715240968034,
+      "contentHash": "566ab89634daf8e542177b1e7016971e",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/common/EtherPaymentFallback.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "EtherPaymentFallback"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/common/SignatureDecoder.sol": {
+      "lastModificationDate": 1715240968034,
+      "contentHash": "c42a4ba77188fde1fff8281ea700f4fa",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/common/SignatureDecoder.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "SignatureDecoder"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/common/SecuredTokenTransfer.sol": {
+      "lastModificationDate": 1715240968034,
+      "contentHash": "80c88034d9e09f88f6853fc707cf03c6",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/common/SecuredTokenTransfer.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "SecuredTokenTransfer"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/external/GnosisSafeMath.sol": {
+      "lastModificationDate": 1715240968034,
+      "contentHash": "0b98e5ff6cd364731017082744cf5706",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/external/GnosisSafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "GnosisSafeMath"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/interfaces/ISignatureValidator.sol": {
+      "lastModificationDate": 1715240968038,
+      "contentHash": "45be433b79d00dd9f3b8047489c3ff80",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/interfaces/ISignatureValidator.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ISignatureValidator",
+        "ISignatureValidatorConstants"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/common/Enum.sol": {
+      "lastModificationDate": 1715240968034,
+      "contentHash": "70d93d6b3e8b23f419fe3e529a43c17e",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/common/Enum.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Enum"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/base/Executor.sol": {
+      "lastModificationDate": 1715240968034,
+      "contentHash": "5d439865306475654cf018596f1b1061",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/base/Executor.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/Enum.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Executor"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/common/SelfAuthorized.sol": {
+      "lastModificationDate": 1715240968034,
+      "contentHash": "4c773e803298d5521ba60d7fc06df0b3",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/common/SelfAuthorized.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "SelfAuthorized"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/interfaces/ERC721TokenReceiver.sol": {
+      "lastModificationDate": 1715240968037,
+      "contentHash": "ffac82dd785c225e65d296c1c6596d5a",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/interfaces/ERC721TokenReceiver.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ERC721TokenReceiver"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/interfaces/ERC777TokensRecipient.sol": {
+      "lastModificationDate": 1715240968038,
+      "contentHash": "38601f7aa7b8c19d689915aeda071ef0",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/interfaces/ERC777TokensRecipient.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ERC777TokensRecipient"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/interfaces/ERC1155TokenReceiver.sol": {
+      "lastModificationDate": 1715240968038,
+      "contentHash": "1d63defb083613ac870a97490f3635ba",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/interfaces/ERC1155TokenReceiver.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ERC1155TokenReceiver"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/interfaces/IERC165.sol": {
+      "lastModificationDate": 1715240968037,
+      "contentHash": "2d418698dff7323e4f199ff8633d1a3a",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/interfaces/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/proxies/GnosisSafeProxy.sol": {
+      "lastModificationDate": 1715240968036,
+      "contentHash": "eba113f6899fe142a2081f63aded8c83",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/proxies/GnosisSafeProxy.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "GnosisSafeProxy",
+        "IProxy"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/proxies/IProxyCreationCallback.sol": {
+      "lastModificationDate": 1715240968036,
+      "contentHash": "e73c0b8a985873c817469f5c6038e233",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/proxies/IProxyCreationCallback.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./GnosisSafeProxy.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IProxyCreationCallback"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@gnosis.pm/safe-contracts-v1.3.0/contracts/examples/libraries/GnosisSafeStorage.sol": {
+      "lastModificationDate": 1715240969234,
+      "contentHash": "62d516f9db15e3e52638095ba56f2fed",
+      "sourceName": "@gnosis.pm/safe-contracts-v1.3.0/contracts/examples/libraries/GnosisSafeStorage.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "GnosisSafeStorage"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/packages/protocol-kit/contracts/Deps_V1_4_1.sol": {
+      "lastModificationDate": 1715183075326,
+      "contentHash": "122c9059a22ccb689d8812bafcaada64",
+      "sourceName": "contracts/Deps_V1_4_1.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@safe-global/safe-contracts-v1.4.1/contracts/proxies/SafeProxyFactory.sol",
+        "@safe-global/safe-contracts-v1.4.1/contracts/Safe.sol",
+        "@safe-global/safe-contracts-v1.4.1/contracts/handler/CompatibilityFallbackHandler.sol",
+        "@safe-global/safe-contracts-v1.4.1/contracts/libraries/MultiSend.sol",
+        "@safe-global/safe-contracts-v1.4.1/contracts/libraries/MultiSendCallOnly.sol",
+        "@safe-global/safe-contracts-v1.4.1/contracts/libraries/SignMessageLib.sol",
+        "@safe-global/safe-contracts-v1.4.1/contracts/libraries/CreateCall.sol",
+        "@safe-global/safe-contracts-v1.4.1/contracts/handler/TokenCallbackHandler.sol",
+        "@safe-global/safe-contracts-v1.4.1/contracts/accessors/SimulateTxAccessor.sol",
+        "@safe-global/safe-contracts-v1.4.1/contracts/examples/guards/DebugTransactionGuard.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "CompatibilityFallbackHandler_SV1_4_1",
+        "CreateCall_SV1_4_1",
+        "DebugTransactionGuard_SV1_4_1",
+        "MultiSendCallOnly_SV1_4_1",
+        "MultiSend_SV1_4_1",
+        "SafeProxyFactory_SV1_4_1",
+        "Safe_SV1_4_1",
+        "SignMessageLib_SV1_4_1",
+        "SimulateTxAccessor_SV1_4_1",
+        "TokenCallbackHandler_SV1_4_1"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/Safe.sol": {
+      "lastModificationDate": 1715240967083,
+      "contentHash": "d50465955336173c90bcd88677117d77",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/Safe.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./base/ModuleManager.sol",
+        "./base/OwnerManager.sol",
+        "./base/FallbackManager.sol",
+        "./base/GuardManager.sol",
+        "./common/NativeCurrencyPaymentFallback.sol",
+        "./common/Singleton.sol",
+        "./common/SignatureDecoder.sol",
+        "./common/SecuredTokenTransfer.sol",
+        "./common/StorageAccessible.sol",
+        "./interfaces/ISignatureValidator.sol",
+        "./external/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Safe"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/libraries/SignMessageLib.sol": {
+      "lastModificationDate": 1715240968360,
+      "contentHash": "5adf3f4678492ed8bb8c77fa17520685",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/libraries/SignMessageLib.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./SafeStorage.sol",
+        "../Safe.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "SignMessageLib"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/libraries/MultiSend.sol": {
+      "lastModificationDate": 1715240968360,
+      "contentHash": "1ccfe7665d5bdb240ea2c16fd29d2b30",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/libraries/MultiSend.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "MultiSend"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/proxies/SafeProxyFactory.sol": {
+      "lastModificationDate": 1715240968361,
+      "contentHash": "abe7e37b7ebc6364ba5a0c0611c78a1c",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/proxies/SafeProxyFactory.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./SafeProxy.sol",
+        "./IProxyCreationCallback.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "SafeProxyFactory"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/handler/CompatibilityFallbackHandler.sol": {
+      "lastModificationDate": 1715240968360,
+      "contentHash": "3a105b30616058f35ef74034ce65c00d",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/handler/CompatibilityFallbackHandler.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./TokenCallbackHandler.sol",
+        "../interfaces/ISignatureValidator.sol",
+        "../Safe.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "CompatibilityFallbackHandler"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/libraries/CreateCall.sol": {
+      "lastModificationDate": 1715240968360,
+      "contentHash": "e92fd4a8a85530b5a20186397a475dca",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/libraries/CreateCall.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "CreateCall"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/libraries/MultiSendCallOnly.sol": {
+      "lastModificationDate": 1715240968360,
+      "contentHash": "b4819f0a8fb6175542eb4445cf6437d6",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/libraries/MultiSendCallOnly.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "MultiSendCallOnly"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/handler/TokenCallbackHandler.sol": {
+      "lastModificationDate": 1715240968361,
+      "contentHash": "8ab29352ccc80e9bef5b166cd37b67bf",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/handler/TokenCallbackHandler.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/ERC1155TokenReceiver.sol",
+        "../interfaces/ERC721TokenReceiver.sol",
+        "../interfaces/ERC777TokensRecipient.sol",
+        "../interfaces/IERC165.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "TokenCallbackHandler"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/accessors/SimulateTxAccessor.sol": {
+      "lastModificationDate": 1715240968360,
+      "contentHash": "b33c0eb72fb8cc0d41395bef7bac5941",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/accessors/SimulateTxAccessor.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../base/Executor.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "SimulateTxAccessor"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/examples/guards/DebugTransactionGuard.sol": {
+      "lastModificationDate": 1715240969291,
+      "contentHash": "bf094ab534153d3a54df4f9de831b79a",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/examples/guards/DebugTransactionGuard.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../common/Enum.sol",
+        "../../base/GuardManager.sol",
+        "../../Safe.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "DebugTransactionGuard"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/base/ModuleManager.sol": {
+      "lastModificationDate": 1715240968359,
+      "contentHash": "4bb78015f14f7231cc4858401af1b44e",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/base/ModuleManager.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/Enum.sol",
+        "../common/SelfAuthorized.sol",
+        "./Executor.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ModuleManager"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/base/GuardManager.sol": {
+      "lastModificationDate": 1715240968359,
+      "contentHash": "1e54e01c1f37779338208b6d7be98e5e",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/base/GuardManager.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/Enum.sol",
+        "../common/SelfAuthorized.sol",
+        "../interfaces/IERC165.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "BaseGuard",
+        "Guard",
+        "GuardManager"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/base/FallbackManager.sol": {
+      "lastModificationDate": 1715240968359,
+      "contentHash": "4c6d1b26cc412ccd17ea9b78dc128270",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/base/FallbackManager.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/SelfAuthorized.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "FallbackManager"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/common/NativeCurrencyPaymentFallback.sol": {
+      "lastModificationDate": 1715240968360,
+      "contentHash": "79631e7760820b3bf3036859965461f2",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/common/NativeCurrencyPaymentFallback.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "NativeCurrencyPaymentFallback"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/common/SignatureDecoder.sol": {
+      "lastModificationDate": 1715240968360,
+      "contentHash": "759c721a386961647423692b9758bcde",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/common/SignatureDecoder.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "SignatureDecoder"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/common/Singleton.sol": {
+      "lastModificationDate": 1715240968360,
+      "contentHash": "91662c76349d40bc28220fabdcbdf4dc",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/common/Singleton.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Singleton"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/common/StorageAccessible.sol": {
+      "lastModificationDate": 1715240968360,
+      "contentHash": "fe3442ee1931f23b0967c5090fb6271c",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/common/StorageAccessible.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "StorageAccessible"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/common/SecuredTokenTransfer.sol": {
+      "lastModificationDate": 1715240968360,
+      "contentHash": "ac149bdf6ecfd4048cb024194e0b999f",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/common/SecuredTokenTransfer.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "SecuredTokenTransfer"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/external/SafeMath.sol": {
+      "lastModificationDate": 1715240968360,
+      "contentHash": "337f2d06534270dbd37557c83037b2da",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/external/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/base/OwnerManager.sol": {
+      "lastModificationDate": 1715240968359,
+      "contentHash": "663e439dfad06fbe9549413849124d08",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/base/OwnerManager.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/SelfAuthorized.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "OwnerManager"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/interfaces/ISignatureValidator.sol": {
+      "lastModificationDate": 1715240968360,
+      "contentHash": "fb4f45d1df906c3ce2f2cea981287ac5",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/interfaces/ISignatureValidator.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ISignatureValidator",
+        "ISignatureValidatorConstants"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/base/Executor.sol": {
+      "lastModificationDate": 1715240968359,
+      "contentHash": "16a9fb94ec8c94fffbf9882cff5c099d",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/base/Executor.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/Enum.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Executor"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/common/Enum.sol": {
+      "lastModificationDate": 1715240968359,
+      "contentHash": "60024c511da0be9ebf3bbf4afc28a89e",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/common/Enum.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Enum"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/common/SelfAuthorized.sol": {
+      "lastModificationDate": 1715240968360,
+      "contentHash": "67595e945b06c7605c27976b29594b7c",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/common/SelfAuthorized.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "SelfAuthorized"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/interfaces/IERC165.sol": {
+      "lastModificationDate": 1715240968360,
+      "contentHash": "bce65d821b53a372fd0065144e4f00fe",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/interfaces/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/libraries/SafeStorage.sol": {
+      "lastModificationDate": 1715240968360,
+      "contentHash": "d78dbd71bbd1ced06eda98a957185b58",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/libraries/SafeStorage.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "SafeStorage"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/proxies/SafeProxy.sol": {
+      "lastModificationDate": 1715240968361,
+      "contentHash": "d4bcb5199c68209d68cb38cbb3216e5d",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/proxies/SafeProxy.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IProxy",
+        "SafeProxy"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/proxies/IProxyCreationCallback.sol": {
+      "lastModificationDate": 1715240968361,
+      "contentHash": "40fdc07db481d841d0a4353a34e071ef",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/proxies/IProxyCreationCallback.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./SafeProxy.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IProxyCreationCallback"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/interfaces/ERC1155TokenReceiver.sol": {
+      "lastModificationDate": 1715240968360,
+      "contentHash": "8eb86bbbd34fd9a513d298dfb7430ce3",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/interfaces/ERC1155TokenReceiver.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ERC1155TokenReceiver"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/interfaces/ERC721TokenReceiver.sol": {
+      "lastModificationDate": 1715240968360,
+      "contentHash": "9c89f32397f287e0b460b86c94b62578",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/interfaces/ERC721TokenReceiver.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ERC721TokenReceiver"
+      ]
+    },
+    "/Users/max/Desktop/Safe/safe-core-sdk/node_modules/@safe-global/safe-contracts-v1.4.1/contracts/interfaces/ERC777TokensRecipient.sol": {
+      "lastModificationDate": 1715240968360,
+      "contentHash": "621584a95e90d5ffe335c35d4e9fa5d6",
+      "sourceName": "@safe-global/safe-contracts-v1.4.1/contracts/interfaces/ERC777TokensRecipient.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ERC777TokensRecipient"
+      ]
+    }
+  }
+}
